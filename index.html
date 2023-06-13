@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang= "en">
+    
+    
+<head>
+    <title>Task Manager</title>
+    <link rel = "stylesheet" href ="style.css">
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Welcome to Task Manager</h1>
+    <h3>List all the tasks you need to get done.</h3>
+    <div class = "newTask" id="newTask"></div>
+        <form>
+            <label for="name">Title: </label><br>
+            <input type = "text" id="name" name="name"><br>
+            <label for="name">Description: </label><br>
+            <input type = "text" id="description" name="description"><br>
+            <input type="checkbox" id="urgent" name="urgent" value="Urgent">
+            <label for="urgent"> Urgent</label><br>
+            <input type="checkbox" id="mid" name="mid" value="Mid">
+            <label for="mid"> Mid</label><br>
+            <input type="checkbox" id="low" name="low" value="Low">
+            <label for="low"> Low</label><br>
+            <span onclick="newElement()" class="submitBtn">Submit</span>
+        </form>
+    </div>
+
+</body>
+</html>
